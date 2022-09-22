@@ -1,0 +1,84 @@
+body {
+    background-color: #003B46;
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+h2 {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.article {
+    margin: 5%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px gray;
+    padding: 20px;
+    width: 30%;
+    background-color:#07575B;
+}
+
+#readMore {
+    color: #003B46;
+    border-radius: 15px;
+    padding: 15px;
+    width: 15%;
+    box-shadow: 10px 10px 15px gray;
+    margin: 0 42.5%;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+input{
+    padding: 15px;
+    background-color:white;
+    color:#003B46;
+    outline: 0;
+    width: 50%;
+    margin-left: 15%;
+}
+input::placeholder{
+    color: #003B46;
+}
+button, select{
+    background-color: #66A5AD;
+    outline: 0;
+    border:0;
+    border: 2px solid #07575B;
+    width:5%;
+    cursor: pointer;
+}
+select{
+    width: 10%;
+}
